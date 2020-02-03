@@ -2,7 +2,7 @@ clearvars;
 tic;
 
 data_dir = 'J:\Data & Analysis\Rule Switching';
-[dirs,expData] = expData_RuleSwitching_DEVO(data_dir);
+[dirs,expData] = expData_RuleSwitching(data_dir);
 save_dir = fullfile(dirs.figures,'ROI images');   %Figures directory: cellular fluorescence
 create_dirs(save_dir); %Create dir for these figures
 
